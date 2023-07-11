@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.container img{
+  width: 1400px;
+  height: 730px;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+.container{
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2, 3 , 7 , 0.4);
+}
+.home-text{
+  z-index: 1000;
+  padding: 0 150px;
+  justify-content: left;
+}

@@ -1,0 +1,27 @@
+/*   */
+.navbar{
+    display: flex;
+    column-gap: 15rem;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: blue;
+    margin-top: 30px;
+  }
+  .title{
+    margin-right: 70px;
+
+  }
+  .logo{
+    width: 20px;
+  }
+
+  .navbar ::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.4s all linear;
+}
